@@ -1,12 +1,14 @@
 import './App.css'
+import Navbar from './assets/componnents/navbar';
+
 
 
 function App() {
   
   return (
-    <>
-     <h1>Damal</h1>
-    </>
+   <div>
+    <Navbar/>
+   </div>
   )
 }
 
