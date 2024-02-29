@@ -27,7 +27,7 @@ function App() {
   return (
     <div id='container'>
     <div id="heder" >
-      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom" height="500px">
+      <header className="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom" >
         <div className="col-md-3 mb-2 mb-md-0">
           <a href="/" className="d-inline-flex link-body-emphasis text-decoration-none">
             <h3 id='title'>Weather Forcast</h3>
@@ -71,7 +71,30 @@ function App() {
         </div>
       </div>
     </div>
-
+    <table className="table table-success table-striped">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+  </tbody>
+</table>
 
   </div>
   )
