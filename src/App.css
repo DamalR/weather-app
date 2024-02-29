@@ -1,24 +1,24 @@
 #title {
     color: rgb(252, 252, 252);
     font-size: 24px;
-    text-align: center; /* Center align the text */
-    margin-bottom: 20px; /* Add margin at the bottom for spacing */
-    text-transform: uppercase; /* Convert text to uppercase */
-    font-weight: bold; /* Set font weight to bold */
+    text-align: center;
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
     padding-left: 100px;
   }
   
 
 
-  /* #container {
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
+  #container {
+    background-color: rgb(47, 80, 108);
+    height: 1050px;
+  }
   #heder {
     background-image: url('./assets/image/heder1.jpeg');
-    background-size: 100% auto; /* Set the width to 100% and auto adjust the height */
-    background-position: center; /* Center the background image */
-    height: 220px; /* Set your desired height */
+    background-size: 100% auto; 
+    background-position: center; 
+    height: 220px; 
   }
   #navButton .nav-link {
     font-weight: bold;
@@ -30,12 +30,12 @@
   }
   
   #weatherImage {
-    width: 150px; /* Set your desired width */
-    height: 150px; /* Set your desired height */
+    width: 150px; 
+    height: 150px; 
   }
   #detalis1{
     color: rgb(231, 231, 231);
-    width: 370px; /* Set your desired width */
+    width: 370px; 
     height: 400px;
     padding-top: 50px;
     padding-left: 80px;
@@ -76,6 +76,10 @@
     padding-right: 20px;
     color: aliceblue;
     font-size: 20px;
+  }
+
+  #footer-text{
+    text-align: center  ;
   }
     
   
