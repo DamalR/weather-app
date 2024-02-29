@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.js'
+import moment from 'moment';
 
 
 
@@ -11,11 +12,14 @@ function App() {
   const [temperature, setTemperature] = useState("null");
   const [condition, setCondition] = useState("");
   const [image, setImage] = useState("");
-  const[location,setLocation] = useState("");
-  const[humidity,setHumidity] = useState("");
-  const[windSpeed,setWindSpeed] = useState("");
-  const[region,setRegion] = useState("");
-  const[country,setCountry] = useState("");
+  const [location, setLocation] = useState("");
+  const [humidity, setHumidity] = useState("");
+  const [windSpeed, setWindSpeed] = useState("");
+  const [region, setRegion] = useState("");
+  const [country, setCountry] = useState("");
+
+  const date = moment().format("MMMM DD YYYY");
+  const time = moment().format("HH mm ss");
 
   const handleSearch = async () => {
     try {
@@ -52,6 +56,10 @@ function App() {
             <li><a href="#" className="nav-link px-2">Map</a></li>
             <li><a href="#" className="nav-link px-2">About</a></li>
           </ul>
+          <div id='date-time'>
+            <p>{date} </p>
+            <p>{time} </p>
+          </div>
         </header>
         <div className="row justify-content-center">
           <div className="col-5">
@@ -112,8 +120,6 @@ function App() {
 
         </div>
       </div>
-
-
     </div>
   )
 }

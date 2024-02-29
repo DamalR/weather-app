@@ -18,7 +18,7 @@
     background-image: url('./assets/image/heder1.jpeg');
     background-size: 100% auto; /* Set the width to 100% and auto adjust the height */
     background-position: center; /* Center the background image */
-    height: 180px; /* Set your desired height */
+    height: 220px; /* Set your desired height */
   }
   #navButton .nav-link {
     font-weight: bold;
@@ -70,6 +70,12 @@
 
   #table{
     padding-right: 50px;
+  }
+
+  #date-time{
+    padding-right: 20px;
+    color: aliceblue;
+    font-size: 20px;
   }
     
   
